@@ -4,7 +4,8 @@ public enum DatabaseTable {
 	NONE(""),
 	EMPLOYEE("employee"),
 	TRANSACTION("transaction"),
-	PRODUCT("product");
+	PRODUCT("product"),
+	TRANSACTION_ENTRY("transactionentry");
 	
 	public String getLabel() {
 		return label;
